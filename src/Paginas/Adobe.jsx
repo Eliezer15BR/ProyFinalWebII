@@ -1,0 +1,18 @@
+import React from "react";
+import Empresa from "../Componentes/Empresas";
+const img1="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Adobe_Corporate_logo.svg/512px-Adobe_Corporate_logo.svg.png"
+const img2="https://upload.wikimedia.org/wikipedia/commons/3/35/Adobe_World_Headquarters.jpg"
+const img3="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw-MENtMs4eWJdO0uM0xT0BEOj__yUA_NXcQ&s"
+const img4="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuRbyN4JkgXQMjdoVuhBIZZ3Tcs5zzv_RIUA&s"
+const h1="Adobe fue fundada en 1982 por John Warnock y Charles Geschke bajo el nombre de Adobe Systems, con el objetivo de desarrollar un sistema de impresión digital basado en la tecnología PostScript. En 1985, Adobe revolucionó la industria del diseño gráfico con el lanzamiento de Adobe Illustrator, un software de ilustración vectorial que se convirtió en un estándar en la industria. En 1987, la compañía lanzó Photoshop, que rápidamente se consolidó como la herramienta de edición de imágenes más popular, transformando la fotografía y el diseño gráfico digital. A lo largo de los años, Adobe continuó innovando y expandiendo su portafolio con productos como Adobe Acrobat y Adobe Creative Suite, convirtiéndose en un gigante del software para creativos."
+const h2="En los años 2000, Adobe se diversificó aún más al adquirir otras compañías, como Macromedia en 2005, lo que le permitió incorporar herramientas como Dreamweaver y Flash a su oferta. A medida que la tecnología evolucionaba, Adobe adaptó su modelo de negocio, pasando de vender software en cajas físicas a ofrecer sus productos bajo un modelo de suscripción basado en la nube. En 2013, Adobe lanzó Adobe Creative Cloud, una plataforma que permitió a los usuarios acceder a sus aplicaciones de diseño de forma online, marcando un cambio fundamental en la industria del software creativo."
+const a1="Hoy en día, Adobe sigue siendo líder en el sector del software creativo, con aplicaciones como Photoshop, Illustrator, Premiere Pro y Adobe XD, utilizadas por millones de diseñadores, fotógrafos, videógrafos y profesionales de la creación de contenido en todo el mundo. Su plataforma Adobe Creative Cloud se ha consolidado como un servicio esencial para los creativos, permitiendo el acceso a herramientas de diseño, edición de video, animación y fotografía a través de una suscripción mensual. Adobe también ha ampliado su presencia en el ámbito de la inteligencia artificial con Adobe Sensei, que integra capacidades de aprendizaje automático para mejorar la productividad de los usuarios."
+const a2="Además, Adobe ha diversificado su negocio hacia la experiencia digital y el marketing, con productos como Adobe Experience Cloud, que ofrecen soluciones de análisis de datos, marketing digital y gestión de contenido a empresas. La compañía ha logrado adaptarse a la transformación digital, ofreciendo soluciones tanto a consumidores como a empresas, y continúa expandiendo su influencia en áreas emergentes como la realidad aumentada (AR) y el diseño 3D. Aunque enfrenta competencia de empresas como Corel y Affinity, Adobe sigue siendo un referente global en software creativo y soluciones digitales para empresas."
+function Adobe(props){
+    return(
+        <div>
+        <Empresa titulo="Adobe" img1={img1} img3={img3} img4={img4} h1={h1}  h2={h2}img2={img2} a1={a1} a2={a2}/>
+        </div>
+    );
+}
+export default Adobe;

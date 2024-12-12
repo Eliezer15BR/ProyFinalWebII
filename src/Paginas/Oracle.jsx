@@ -1,0 +1,18 @@
+import React from "react";
+import Empresa from "../Componentes/Empresas";
+const img1="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Oracle_Logo.svg/640px-Oracle_Logo.svg.png"
+const img2="https://media.glassdoor.com/lst2x/a3/7c/c8/51/success-stories-as-far-as-the-eye-can-see-the-best-view-from-oracle.jpg?signature=979bb341088940571ff8c3948c9b493cdaee119b0414d8462c6d0834461946ee"
+const img3="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBXQ1m46xneJffxmW-KUmlsX3c-ELLdBM3ww&s"
+const img4="https://media.licdn.com/dms/image/D4E12AQGuO9LZbbwT6w/article-cover_image-shrink_600_2000/0/1675001340405?e=2147483647&v=beta&t=ALM1-gSpM09tSWlMnZvCyMHUB_-ENPGZVCZv67Mt_1M"
+const h1="Oracle fue fundada en 1977 por Larry Ellison, Bob Miner y Ed Oates bajo el nombre de Software Development Laboratories (SDL), inicialmente como una empresa dedicada a la creación de un sistema de gestión de bases de datos. En 1979, la compañía cambió su nombre a Oracle Corporation, inspirada por el nombre de su producto más exitoso, un sistema de bases de datos relacional. En los años 80, Oracle se consolidó como líder en software de bases de datos, introduciendo innovaciones clave que permitieron el uso de bases de datos en entornos empresariales. En 1986, Oracle salió a bolsa, lo que permitió financiar su expansión global."
+const h2="Durante las décadas siguientes, Oracle se expandió agresivamente a través de adquisiciones estratégicas, comprando empresas como PeopleSoft (2005) y Siebel Systems (2006), lo que le permitió diversificar su portafolio y convertirse en un proveedor integral de soluciones empresariales, que incluyen software de aplicaciones, hardware y servicios en la nube. A medida que el mercado de la tecnología empresarial evolucionaba, Oracle ajustó su enfoque hacia la computación en la nube, lanzando Oracle Cloud en 2012 para competir con gigantes como Amazon Web Services (AWS) y Microsoft Azure."
+const a1="Hoy en día, Oracle es uno de los principales actores en el mercado de bases de datos y soluciones empresariales en la nube. Su plataforma Oracle Cloud, que incluye servicios de infraestructura como servicio (IaaS), plataforma como servicio (PaaS) y software como servicio (SaaS), ha ganado relevancia en la nube híbrida y multicloud, y sigue siendo clave para grandes corporaciones que buscan soluciones completas y seguras. Oracle se enfoca en ofrecer bases de datos avanzadas, inteligencia artificial y herramientas de análisis de datos a empresas globales, especialmente en sectores como finanzas, salud y telecomunicaciones."
+const a2="A pesar de la intensa competencia en el mercado de la nube, Oracle sigue siendo un referente en soluciones empresariales, especialmente para clientes que requieren alta seguridad y rendimiento en la gestión de datos. La compañía ha avanzado en la integración de su infraestructura en la nube con capacidades de IA y automatización, lo que la posiciona como un proveedor clave para empresas que buscan mejorar sus procesos de negocio mediante la transformación digital. Sin embargo, Oracle continúa enfrentando desafíos para aumentar su cuota de mercado en la nube pública frente a competidores como Amazon y Microsoft."
+function Oracle(props){
+    return(
+        <div>
+        <Empresa titulo="Oracle"img1={img1} img3={img3} img4={img4} h1={h1}  h2={h2}img2={img2} a1={a1} a2={a2}/>
+        </div>
+    );
+}
+export default Oracle;

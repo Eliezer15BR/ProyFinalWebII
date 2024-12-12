@@ -1,0 +1,149 @@
+.padre{
+    background-color: rgb(150, 228, 170);
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+    color:aliceblue;
+}
+header{
+    grid-row: 1 / 2;
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav{
+    height: 100%;
+    font-size: 35px;
+    background-color: rgb(73, 0, 209);
+}
+.nav .contenido .nav-link{
+    color: rgb(240, 251, 255);
+}
+.nav .contenido .titulo{
+    font-size: 40px;
+    color: aliceblue;
+}
+.nav .dropdown-menu{
+    background-color:rgba(73, 0, 209, 0.8);
+    border-color: rgb(14, 0, 212);
+    border-width: 4px;
+}
+.nav .dropdown-item {
+    font-size: 20px;
+    color: aliceblue;
+    border-bottom: 3px solid;
+    border-color: rgb(14, 0, 212);
+    height: 100%;
+}
+.nav .dropdown-item:hover{
+    transition: 500ms;
+    transform: scale(1.2);
+}
+
+
+.logo{
+    margin: 20px;
+}
+.contenedor{
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    background-color: black;
+    overflow: auto;
+}
+.contenedor .pie{
+    background-color: rgb(0, 0, 126);
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+a:link{
+    color:white;
+    text-decoration: none;
+    transition: 500ms;
+}
+a:visited{
+    color:white;
+}
+a:hover{
+    transition: 500ms;
+    color:black;
+    text-shadow: 0 0 3px #fff;
+}
+a:active{
+    color:black;
+}
+.contenedor .pie .varios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 25px;
+}
+.contenedor .pie .varios a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+.contenedor .pie .varios a:hover{
+    transition: 500ms;
+    background-color: rgb(20, 7, 197);
+    color:white;
+}
+.contenedor .pie .varios a .boton{
+    background-color: inherit;
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 25px;
+}
+.contenedor .pie .redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor .pie .imgredes .logo{
+    transition: 350ms;
+}
+.contenedor .pie .imgredes .logo:hover{
+    transition: 500ms;
+    transform: scale(1.5);
+}
+.contenedor .pie .creditos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+@media (max-width:1000px) {
+    .padre{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav .dropdown-item:hover{
+        transition: 500ms;
+        color: black;
+        transform: scale(1.1);
+    }
+    .nav .dropdown-menu{
+        background-color:rgba(73, 0, 209, 0.8);
+        border-color: rgb(14, 0, 212);
+        border-width: 4px;
+        width: 60%;
+    }
+    .nav .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='5' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    }
+    .contenedor .pie .varios{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor .pie .varios a{
+        margin: 5px;
+        transform: scale(1.8);
+    }
+}
+
+

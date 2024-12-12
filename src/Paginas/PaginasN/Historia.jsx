@@ -1,0 +1,17 @@
+import React from "react";
+import './Inicio.css'
+import Grupo from '../../Componentes/Cardgroup'
+function Historia(props){
+    return(
+        <div className="conte">
+            <h1>Historia del Software</h1>
+            <p>Primeramente introduzcamonos en la historia del software.</p>
+            <p>La historia del software está estrechamente ligada a la evolución de la computación y ha tenido un impacto profundo en la sociedad moderna. Todo comenzó en los años 40 y 50 con los primeros ordenadores, como el ENIAC, que no tenían un software operativo. Los programas se escribían directamente en el hardware, y cada máquina necesitaba instrucciones específicas. A medida que las computadoras se volvieron más sofisticadas, comenzó a surgir la necesidad de un software que pudiera facilitar su funcionamiento y mejorar su flexibilidad. Fue entonces cuando nacieron los primeros lenguajes de programación, como el FORTRAN en 1957, que permitió a los científicos y matemáticos escribir programas sin tener que interactuar directamente con el hardware.</p>
+            <p>En las décadas siguientes, empresas como IBM y Microsoft jugaron un papel crucial en la evolución del software. IBM, pionera en la producción de grandes computadoras de mainframe, desarrolló sus propios sistemas operativos y aplicaciones, como el famoso IBM OS/360, que se convirtió en un estándar en la industria. Por otro lado, Microsoft se destacó en los años 80 y 90, con el lanzamiento de sistemas operativos como MS-DOS y, más tarde, Windows, que revolucionaron el mercado de las computadoras personales y ayudaron a hacer accesible la informática a miles de millones de personas en todo el mundo.</p>
+            <p>A medida que avanzaba la tecnología, nuevas empresas también comenzaron a transformar la industria del software. Oracle, por ejemplo, se especializó en el software de bases de datos y en el desarrollo de soluciones para empresas. Su base de datos Oracle se convirtió en uno de los sistemas más populares en el mundo empresarial. Adobe, con su famosa suite de herramientas como Photoshop, Illustrator y Acrobat, transformó el diseño gráfico y la edición de documentos, mientras que Google cambió la forma en que interactuamos con la información, con su motor de búsqueda y sus aplicaciones basadas en la nube, como Gmail y Google Docs, que se han convertido en herramientas esenciales en la vida diaria.</p>
+            <p>En tiempos más recientes, empresas como Globant y TOTVS han aportado innovaciones clave al mundo del software, con enfoques centrados en la transformación digital y la mejora de procesos empresariales a través de soluciones tecnológicas avanzadas. Globant se ha destacado por su enfoque en la inteligencia artificial, el Big Data y el desarrollo de software a medida, mientras que TOTVS, con sede en Brasil, ha sido un actor importante en el mercado de software empresarial, especialmente en la gestión empresarial y en soluciones para el sector público. Estas empresas continúan demostrando cómo el software sigue siendo un motor fundamental para la innovación y el progreso, redefiniendo el futuro de las industrias y la sociedad globalmente.</p>
+            <center><Grupo/></center>
+        </div>
+    );
+}
+export default Historia;

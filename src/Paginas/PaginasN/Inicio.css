@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    font-size: 65px;
+}
+p{
+    font-size: 25px;
+    text-align: justify;
+}
+@media(max-width:880px){
+    .conte .carrusel{
+        width: 700px;;
+    }
+    .conte .grupo{
+        display: flex;
+        flex-direction: column;
+    }
+}
