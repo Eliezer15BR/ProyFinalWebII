@@ -1,4 +1,3 @@
-import React from "react";
 import CarruselEmpresa from "./CarruselEmpresa";
 import './Empresas.css'
 function Empresa(props){
