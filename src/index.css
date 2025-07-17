@@ -26,8 +26,6 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  display: grid;
-  grid-template-rows: 1fr;
 }
 
 h1 {

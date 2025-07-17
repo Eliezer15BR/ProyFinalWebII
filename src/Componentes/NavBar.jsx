@@ -8,7 +8,7 @@ function Navegador(props) {
   return (
     <Navbar expand="lg" className="nav" >
       <Container className='contenido'>
-      <Image src="logo.jfif" width="100" className='logo'roundedCircle />
+      <Image src="logo.jfif" width="50" className='logo'roundedCircle />
         <Navbar.Brand  className='titulo'  > <Link to="/">Empresas de Software </Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"  />
         <Navbar.Collapse id="basic-navbar-nav">

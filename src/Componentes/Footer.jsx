@@ -1,6 +1,4 @@
-import React from "react";
 import OffC from "./Offcanva";
-import { Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 const pC="En esta página web utilizamos cookies para mejorar tu experiencia de navegación. Las cookies son pequeños archivos de texto que se almacenan en tu navegador y nos permiten recordar tus preferencias y personalizar el contenido.";
 const pC1="Utilizamos cookies tanto propias como de terceros con diferentes finalidades, como por ejemplo para analizar el tráfico de nuestra web, ofrecerte publicidad personalizada o permitirte compartir contenido en redes sociales.";
@@ -27,19 +25,19 @@ function Pie(){
                 <h3>SIGUENOS EN</h3>
                 <div className="imgredes">
                 <Link to="https://www.facebook.com">
-                    <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/640px-Facebook_logo_%28square%29.png" width="100" className='logo'roundedCircle />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/640px-Facebook_logo_%28square%29.png" className='logo' />
                 </Link>
                 <Link to="https://x.com/?lang=es">
-                <Image src="https://resizer.glanacion.com/resizer/v2/elon-musk-cambio-el-logo-de-WHTIWEV47VHEHDV4QYC6PRXVBE.jpg?auth=29e4042f48af310deb7e46ab9afc31d8ef98589c3c1c1c29d6be7ce335477df1&width=768&quality=70&smart=false" width="120" height="110" className='logo'roundedCircle />
+                <img src="https://resizer.glanacion.com/resizer/v2/elon-musk-cambio-el-logo-de-WHTIWEV47VHEHDV4QYC6PRXVBE.jpg?auth=29e4042f48af310deb7e46ab9afc31d8ef98589c3c1c1c29d6be7ce335477df1&width=768&quality=70&smart=false" className='logo' />
                 </Link>
                 <Link to="https://www.instagram.com">
-                <Image src="https://cdn.pixabay.com/photo/2021/06/15/12/28/tiktok-6338429_640.png" width="110" height="110" className='logo'roundedCircle />
+                <img src="https://cdn.pixabay.com/photo/2021/06/15/12/28/tiktok-6338429_640.png" className='logo' />
                 </Link>
                 <Link to="https://www.tiktok.com/es/">
-                <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/600px-Instagram_logo_2022.svg.png" width="100" className='logo'roundedCircle />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/600px-Instagram_logo_2022.svg.png" className='logo' />
                 </Link>
                 <Link to="https://www.youtube.com">
-                <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1024px-YouTube_full-color_icon_%282017%29.svg.png" width="100" className='logo'rounded />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1024px-YouTube_full-color_icon_%282017%29.svg.png" className='logo' />
                 </Link>
                     
                     

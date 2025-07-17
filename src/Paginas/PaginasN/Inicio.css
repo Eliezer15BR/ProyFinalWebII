@@ -1,17 +1,20 @@
 h1{
     text-align: center;
-    font-size: 65px;
+    font-size: 1em;
 }
 p{
-    font-size: 25px;
+    font-size: 1.2em;
     text-align: justify;
 }
 @media(max-width:880px){
     .conte .carrusel{
-        width: 700px;;
+        max-width: 500px;
     }
     .conte .grupo{
         display: flex;
         flex-direction: column;
+    }
+    img{
+        max-width: 500px;
     }
 }
